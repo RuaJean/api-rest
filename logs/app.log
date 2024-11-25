@@ -1,467 +1,197 @@
-2024-11-23T14:39:47.183-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T14:39:47.183-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T14:39:47.184-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T14:39:47.477-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T14:39:47.478-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T14:39:47.479-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T14:39:47.490-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T14:39:47.491-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
-2024-11-23T14:39:47.575-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T14:39:47.584-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T14:39:47.588-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.482 seconds (process running for 556.036)
-2024-11-23T14:39:47.590-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T14:41:04.147-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T14:41:04.147-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T14:41:04.148-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T16:41:27.663-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
-2024-11-23T16:41:27.709-05:00  INFO 16067 --- [prueba-api] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:41:27.744-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:41:28.138-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:41:28.138-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:41:28.139-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:41:28.445-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:41:28.448-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:41:28.448-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:41:28.463-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:41:28.463-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 317 ms
-2024-11-23T16:41:28.597-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:41:28.608-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:41:28.611-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.54 seconds (process running for 4822.033)
-2024-11-23T16:41:28.612-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:41:30.002-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
-2024-11-23T16:41:30.003-05:00  INFO 16067 --- [prueba-api] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:41:30.005-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:41:30.073-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:41:30.074-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:41:30.074-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:41:30.207-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:41:30.208-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:41:30.208-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:41:30.216-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:41:30.216-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 140 ms
-2024-11-23T16:41:30.270-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:41:30.281-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:41:30.284-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.233 seconds (process running for 4823.707)
-2024-11-23T16:41:30.285-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:43:25.214-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T16:43:25.215-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T16:43:25.216-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T16:45:53.455-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T16:45:53.457-05:00  INFO 16067 --- [prueba-api] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:45:53.460-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:45:53.545-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:45:53.546-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:45:53.546-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:45:53.727-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:45:53.728-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:45:53.729-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:45:53.738-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:45:53.739-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
-2024-11-23T16:45:53.796-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:45:53.803-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:45:53.807-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.293 seconds (process running for 5087.231)
-2024-11-23T16:45:53.808-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:45:54.521-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T16:45:54.521-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T16:45:54.522-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T16:45:55.207-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-11-23T16:45:55.208-05:00  INFO 16067 --- [prueba-api] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:45:55.211-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:45:55.272-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:45:55.273-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:45:55.273-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:45:55.420-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:45:55.421-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:45:55.421-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:45:55.429-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:45:55.430-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
-2024-11-23T16:45:55.482-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:45:55.490-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:45:55.494-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.243 seconds (process running for 5088.918)
-2024-11-23T16:45:55.495-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:46:03.808-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T16:46:03.809-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T16:46:03.809-05:00  INFO 16067 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-11-23T16:48:06.708-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T16:48:06.709-05:00  INFO 16067 --- [prueba-api] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:48:06.713-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:48:06.790-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:48:06.790-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:48:06.790-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:48:06.964-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:48:06.965-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:48:06.965-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:48:06.974-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:48:06.975-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 183 ms
-2024-11-23T16:48:07.032-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:48:07.042-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:48:07.046-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.279 seconds (process running for 5220.471)
-2024-11-23T16:48:07.048-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:48:08.443-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-11-23T16:48:08.444-05:00  INFO 16067 --- [prueba-api] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:48:08.447-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:48:08.506-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:48:08.506-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:48:08.506-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:48:08.625-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:48:08.626-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:48:08.626-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:48:08.632-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:48:08.633-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
-2024-11-23T16:48:08.682-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:48:08.689-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:48:08.692-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.204 seconds (process running for 5222.117)
-2024-11-23T16:48:08.693-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T16:49:34.563-05:00  INFO 16067 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2024-11-23T16:49:34.564-05:00  INFO 16067 --- [prueba-api] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T16:49:34.567-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T16:49:34.643-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 16067 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T16:49:34.643-05:00 DEBUG 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T16:49:34.643-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T16:49:34.839-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T16:49:34.841-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T16:49:34.841-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T16:49:34.848-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T16:49:34.848-05:00  INFO 16067 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
-2024-11-23T16:49:34.925-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T16:49:34.934-05:00  INFO 16067 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T16:49:34.938-05:00  INFO 16067 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.321 seconds (process running for 5308.363)
-2024-11-23T16:49:34.939-05:00  INFO 16067 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T17:06:28.224-05:00  INFO 16067 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T17:06:28.228-05:00  INFO 16067 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T17:06:31.937-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T17:06:31.938-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T17:06:31.939-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T17:06:31.995-05:00  INFO 19025 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T17:06:31.996-05:00  INFO 19025 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T17:06:33.287-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T17:06:33.307-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T17:06:33.308-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T17:06:33.353-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T17:06:33.353-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
-2024-11-23T17:06:33.764-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T17:06:33.799-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T17:06:33.808-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.388 seconds (process running for 3.262)
-2024-11-23T17:06:35.293-05:00  INFO 19025 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T17:06:35.293-05:00  INFO 19025 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T17:06:35.294-05:00  INFO 19025 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T18:07:34.281-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:07:34.320-05:00  INFO 19025 --- [prueba-api] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:07:34.337-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:07:34.581-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:34.582-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:34.582-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:34.902-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:34.905-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:34.906-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:34.920-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:34.921-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
-2024-11-23T18:07:35.050-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:07:35.061-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:07:35.064-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.527 seconds (process running for 2332.369)
-2024-11-23T18:07:35.066-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:07:36.454-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-11-23T18:07:36.455-05:00  INFO 19025 --- [prueba-api] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:07:36.458-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:07:36.524-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:36.524-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:36.524-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:36.658-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:36.659-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:36.659-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:36.669-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:36.669-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 143 ms
-2024-11-23T18:07:36.731-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:07:36.738-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:07:36.741-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.238 seconds (process running for 2334.046)
-2024-11-23T18:07:36.742-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:07:47.201-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:07:47.203-05:00  INFO 19025 --- [prueba-api] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:07:47.206-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:07:47.283-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:47.283-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:47.283-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:47.444-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:47.444-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:47.445-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:47.453-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:47.453-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
-2024-11-23T18:07:47.515-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:07:47.523-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:07:47.526-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.269 seconds (process running for 2344.831)
-2024-11-23T18:07:47.527-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:07:48.927-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-11-23T18:07:48.928-05:00  INFO 19025 --- [prueba-api] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:07:48.932-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:07:49.012-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:49.013-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:49.013-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:49.150-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:49.151-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:49.151-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:49.159-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:49.159-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 145 ms
-2024-11-23T18:07:49.211-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:07:49.219-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:07:49.222-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.236 seconds (process running for 2346.527)
-2024-11-23T18:07:49.223-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:07:54.649-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:07:54.650-05:00  INFO 19025 --- [prueba-api] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:07:54.653-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:07:54.745-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:54.761-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:54.762-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:54.912-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:54.913-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:54.913-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:54.920-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:54.920-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
-2024-11-23T18:07:54.930-05:00  WARN 19025 --- [prueba-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientes' defined in file [/Users/jeanrua/Documents/github-repos/prueba-api/target/classes/com/NTTData/prueba_api/api/controller/clientes.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.NTTData.prueba_api.service.ClienteService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2024-11-23T18:07:54.930-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-11-23T18:07:54.937-05:00  INFO 19025 --- [prueba-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-11-23T18:07:54.968-05:00 ERROR 19025 --- [prueba-api] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of constructor in com.NTTData.prueba_api.api.controller.clientes required a bean of type 'com.NTTData.prueba_api.service.ClienteService' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.NTTData.prueba_api.service.ClienteService' in your configuration.
-
-2024-11-23T18:07:56.398-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:07:56.399-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:07:56.399-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:07:56.518-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:07:56.520-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:07:56.520-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:07:56.527-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:07:56.527-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
-2024-11-23T18:07:56.585-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:07:56.593-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:07:56.597-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.216 seconds (process running for 2353.902)
-2024-11-23T18:07:56.598-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:08:05.041-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:08:05.043-05:00  INFO 19025 --- [prueba-api] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:08:05.046-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:08:05.113-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:08:05.113-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:08:05.114-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:08:05.261-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:08:05.262-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:08:05.263-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:08:05.271-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:08:05.271-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
-2024-11-23T18:08:05.278-05:00  WARN 19025 --- [prueba-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientes' defined in file [/Users/jeanrua/Documents/github-repos/prueba-api/target/classes/com/NTTData/prueba_api/api/controller/clientes.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.NTTData.prueba_api.service.ClienteService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2024-11-23T18:08:05.279-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-11-23T18:08:05.283-05:00  INFO 19025 --- [prueba-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-11-23T18:08:05.286-05:00 ERROR 19025 --- [prueba-api] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of constructor in com.NTTData.prueba_api.api.controller.clientes required a bean of type 'com.NTTData.prueba_api.service.ClienteService' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.NTTData.prueba_api.service.ClienteService' in your configuration.
-
-2024-11-23T18:08:06.714-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:08:06.714-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:08:06.714-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:08:06.883-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:08:06.884-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:08:06.884-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:08:06.890-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:08:06.891-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
-2024-11-23T18:08:06.945-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:08:06.953-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:08:06.956-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.26 seconds (process running for 2364.261)
-2024-11-23T18:08:06.958-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:08:28.488-05:00  INFO 19025 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:08:28.489-05:00  INFO 19025 --- [prueba-api] [Thread-30] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:08:28.492-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:08:28.555-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:08:28.555-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:08:28.555-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:08:28.708-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:08:28.709-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:08:28.709-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:08:28.717-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:08:28.718-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 161 ms
-2024-11-23T18:08:28.724-05:00  WARN 19025 --- [prueba-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientes' defined in file [/Users/jeanrua/Documents/github-repos/prueba-api/target/classes/com/NTTData/prueba_api/api/controller/clientes.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.NTTData.prueba_api.service.ClienteService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2024-11-23T18:08:28.724-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-11-23T18:08:28.728-05:00  INFO 19025 --- [prueba-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-11-23T18:08:28.731-05:00 ERROR 19025 --- [prueba-api] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of constructor in com.NTTData.prueba_api.api.controller.clientes required a bean of type 'com.NTTData.prueba_api.service.ClienteService' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.NTTData.prueba_api.service.ClienteService' in your configuration.
-
-2024-11-23T18:08:30.169-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 19025 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:08:30.169-05:00 DEBUG 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:08:30.169-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:08:30.320-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:08:30.321-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:08:30.321-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:08:30.327-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:08:30.327-05:00  INFO 19025 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
-2024-11-23T18:08:30.376-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:08:30.383-05:00  INFO 19025 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:08:30.386-05:00  INFO 19025 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.245 seconds (process running for 2387.69)
-2024-11-23T18:08:30.387-05:00  INFO 19025 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:21:00.041-05:00  INFO 19025 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:21:00.051-05:00  INFO 19025 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:22:00.491-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20496 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:22:00.492-05:00 DEBUG 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:22:00.493-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:22:00.547-05:00  INFO 20496 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T18:22:00.547-05:00  INFO 20496 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T18:22:01.557-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:22:01.575-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:22:01.575-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:22:01.615-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:22:01.616-05:00  INFO 20496 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
-2024-11-23T18:22:02.003-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:22:02.038-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:22:02.046-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.059 seconds (process running for 2.888)
-2024-11-23T18:22:06.987-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T18:22:06.988-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T18:22:06.989-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T18:25:29.245-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:25:29.248-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:25:33.179-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=c y numeroDocumento=23445322
-2024-11-23T18:25:33.180-05:00 ERROR 20496 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Tipo de documento inválido: c
-2024-11-23T18:25:38.262-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:25:38.262-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:25:42.162-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:25:42.162-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:25:58.816-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:25:58.816-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:26:03.445-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
-2024-11-23T18:26:03.445-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:26:12.863-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:26:12.864-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:26:27.243-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
-2024-11-23T18:26:27.243-05:00  INFO 20496 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:28:25.795-05:00  INFO 20496 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-11-23T18:28:25.804-05:00  INFO 20496 --- [prueba-api] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:28:25.809-05:00  INFO 20496 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:28:25.908-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20496 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:28:25.908-05:00 DEBUG 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:28:25.908-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:28:26.108-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:28:26.109-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:28:26.109-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:28:26.121-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:28:26.121-05:00  INFO 20496 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 210 ms
-2024-11-23T18:28:26.192-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:28:26.201-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:28:26.205-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.326 seconds (process running for 387.043)
-2024-11-23T18:28:26.207-05:00  INFO 20496 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:28:27.605-05:00  INFO 20496 --- [prueba-api] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-11-23T18:28:27.606-05:00  INFO 20496 --- [prueba-api] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:28:27.608-05:00  INFO 20496 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:28:27.678-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20496 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:28:27.678-05:00 DEBUG 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:28:27.678-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:28:27.820-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:28:27.820-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:28:27.821-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:28:27.828-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:28:27.829-05:00  INFO 20496 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 149 ms
-2024-11-23T18:28:27.894-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:28:27.904-05:00  INFO 20496 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:28:27.909-05:00  INFO 20496 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 0.253 seconds (process running for 388.746)
-2024-11-23T18:28:27.910-05:00  INFO 20496 --- [prueba-api] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2024-11-23T18:29:38.117-05:00  INFO 20496 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:29:38.121-05:00  INFO 20496 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:29:41.725-05:00  INFO 20719 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20719 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:29:41.727-05:00 DEBUG 20719 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:29:41.727-05:00  INFO 20719 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:29:41.781-05:00  INFO 20719 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T18:29:41.782-05:00  INFO 20719 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T18:29:42.965-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:29:42.984-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:29:42.985-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:29:43.032-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:29:43.032-05:00  INFO 20719 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
-2024-11-23T18:29:43.480-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:29:43.521-05:00  INFO 20719 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:29:43.530-05:00  INFO 20719 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.289 seconds (process running for 3.009)
-2024-11-23T18:29:43.885-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-23T18:29:43.886-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-23T18:29:43.887-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-23T18:29:43.933-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
-2024-11-23T18:29:43.936-05:00  WARN 20719 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente no encontrado para numeroDocumento=23445322
-2024-11-23T18:29:48.137-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
-2024-11-23T18:29:48.138-05:00  INFO 20719 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
-2024-11-23T18:32:51.446-05:00  INFO 20719 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:32:51.452-05:00  INFO 20719 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:32:54.265-05:00  INFO 20834 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20834 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:32:54.266-05:00 DEBUG 20834 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:32:54.267-05:00  INFO 20834 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:32:54.322-05:00  INFO 20834 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T18:32:54.323-05:00  INFO 20834 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T18:32:55.283-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:32:55.301-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:32:55.302-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:32:55.353-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:32:55.354-05:00  INFO 20834 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
-2024-11-23T18:32:55.798-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:32:55.838-05:00  INFO 20834 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:32:55.847-05:00  INFO 20834 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.124 seconds (process running for 3.047)
-2024-11-23T18:35:43.511-05:00  INFO 20834 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:35:43.515-05:00  INFO 20834 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:35:53.345-05:00  INFO 20912 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 20912 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:35:53.347-05:00 DEBUG 20912 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:35:53.348-05:00  INFO 20912 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:35:53.402-05:00  INFO 20912 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T18:35:53.402-05:00  INFO 20912 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T18:35:54.319-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:35:54.338-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:35:54.339-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:35:54.384-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:35:54.384-05:00  INFO 20912 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 981 ms
-2024-11-23T18:35:54.769-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:35:54.806-05:00  INFO 20912 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:35:54.815-05:00  INFO 20912 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 1.928 seconds (process running for 2.658)
-2024-11-23T18:35:57.441-05:00  INFO 20912 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-11-23T18:35:57.446-05:00  INFO 20912 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-11-23T18:39:38.019-05:00  INFO 21042 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 21042 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
-2024-11-23T18:39:38.021-05:00 DEBUG 21042 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
-2024-11-23T18:39:38.022-05:00  INFO 21042 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
-2024-11-23T18:39:38.074-05:00  INFO 21042 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-11-23T18:39:38.075-05:00  INFO 21042 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-11-23T18:39:39.087-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2024-11-23T18:39:39.106-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-23T18:39:39.107-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-11-23T18:39:39.150-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-23T18:39:39.151-05:00  INFO 21042 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
-2024-11-23T18:39:39.534-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-11-23T18:39:39.569-05:00  INFO 21042 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
-2024-11-23T18:39:39.578-05:00  INFO 21042 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.075 seconds (process running for 2.841)
+2024-11-24T08:59:37.546-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T08:59:37.854-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T08:59:41.958-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
+2024-11-24T08:59:41.958-05:00  WARN 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Cliente no encontrado para numeroDocumento=23445322
+2024-11-24T10:01:05.539-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T10:01:05.545-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:11.949-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:11.957-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:13.161-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:13.161-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:13.563-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:13.564-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:13.730-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:13.731-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:13.879-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:13.880-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.197-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.197-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.293-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.294-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.477-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.478-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.611-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.611-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.661-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.662-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:14.910-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:14.910-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:15.034-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:15.035-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:15.293-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:15.293-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-5] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:15.527-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:15.527-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-6] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:43.810-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:43.811-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:44.441-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:44.442-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T15:10:44.625-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T15:10:44.626-05:00  INFO 22938 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:05:54.258-05:00  INFO 22938 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T16:05:54.324-05:00  INFO 22938 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T16:05:59.589-05:00  INFO 36144 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 36144 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T16:05:59.590-05:00 DEBUG 36144 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T16:05:59.591-05:00  INFO 36144 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T16:05:59.654-05:00  INFO 36144 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T16:05:59.654-05:00  INFO 36144 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T16:06:00.795-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T16:06:00.825-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T16:06:00.825-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T16:06:00.888-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T16:06:00.889-05:00  INFO 36144 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2024-11-24T16:06:01.486-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T16:06:01.533-05:00  INFO 36144 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T16:06:01.545-05:00  INFO 36144 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.496 seconds (process running for 3.43)
+2024-11-24T16:06:11.831-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24T16:06:11.832-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-24T16:06:11.833-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-24T16:06:11.904-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
+2024-11-24T16:06:11.906-05:00  WARN 36144 --- [prueba-api] [http-nio-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente no encontrado para numeroDocumento=23445322
+2024-11-24T16:06:16.320-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:06:16.321-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-2] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:06:50.353-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:06:50.354-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-3] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:07:14.806-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:07:14.807-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-4] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:16:40.174-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:16:40.180-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-7] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:16:41.700-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:16:41.704-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-8] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:16:41.899-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:16:41.899-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-9] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:16:56.062-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T16:16:56.064-05:00  INFO 36144 --- [prueba-api] [http-nio-8090-exec-10] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T16:25:40.293-05:00  INFO 36144 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T16:25:40.327-05:00  INFO 36144 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T16:31:43.610-05:00  INFO 37366 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 37366 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T16:31:43.612-05:00 DEBUG 37366 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T16:31:43.613-05:00  INFO 37366 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T16:31:43.677-05:00  INFO 37366 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T16:31:43.677-05:00  INFO 37366 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T16:31:44.830-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T16:31:44.854-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T16:31:44.855-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T16:31:44.911-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T16:31:44.912-05:00  INFO 37366 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1233 ms
+2024-11-24T16:31:45.426-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T16:31:45.468-05:00  INFO 37366 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T16:31:45.478-05:00  INFO 37366 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.451 seconds (process running for 3.63)
+2024-11-24T16:31:49.522-05:00  INFO 37366 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T16:31:49.528-05:00  INFO 37366 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T17:43:38.592-05:00  INFO 39762 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 39762 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T17:43:38.595-05:00 DEBUG 39762 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T17:43:38.596-05:00  INFO 39762 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T17:43:38.650-05:00  INFO 39762 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T17:43:38.650-05:00  INFO 39762 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T17:43:39.644-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T17:43:39.663-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T17:43:39.664-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T17:43:39.707-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T17:43:39.708-05:00  INFO 39762 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1057 ms
+2024-11-24T17:43:40.075-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T17:43:40.111-05:00  INFO 39762 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T17:43:40.120-05:00  INFO 39762 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.066 seconds (process running for 2.876)
+2024-11-24T17:43:53.427-05:00  INFO 39762 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T17:43:53.432-05:00  INFO 39762 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T18:02:27.335-05:00  INFO 40376 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 40376 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T18:02:27.339-05:00 DEBUG 40376 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T18:02:27.341-05:00  INFO 40376 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T18:02:27.423-05:00  INFO 40376 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T18:02:27.424-05:00  INFO 40376 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T18:02:28.697-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T18:02:28.724-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T18:02:28.724-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T18:02:28.772-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T18:02:28.773-05:00  INFO 40376 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1349 ms
+2024-11-24T18:02:29.168-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T18:02:29.207-05:00  INFO 40376 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T18:02:29.217-05:00  INFO 40376 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.708 seconds (process running for 3.699)
+2024-11-24T18:02:33.504-05:00  INFO 40376 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T18:02:33.509-05:00  INFO 40376 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T18:27:15.634-05:00  INFO 41529 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 22.0.2 with PID 41529 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T18:27:15.637-05:00 DEBUG 41529 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T18:27:15.638-05:00  INFO 41529 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T18:27:15.694-05:00  INFO 41529 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T18:27:15.694-05:00  INFO 41529 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T18:27:16.673-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T18:27:16.694-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T18:27:16.695-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T18:27:16.742-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T18:27:16.743-05:00  INFO 41529 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2024-11-24T18:27:17.133-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T18:27:17.168-05:00  INFO 41529 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T18:27:17.177-05:00  INFO 41529 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.047 seconds (process running for 2.865)
+2024-11-24T18:27:19.512-05:00  INFO 41529 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T18:27:19.518-05:00  INFO 41529 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T19:02:57.522-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.PruebaApiApplicationTests          : Starting PruebaApiApplicationTests using Java 17.0.12 with PID 47421 (started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T19:02:57.525-05:00 DEBUG 47421 --- [prueba-api] [main] c.N.p.PruebaApiApplicationTests          : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T19:02:57.526-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.PruebaApiApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T19:02:58.735-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.PruebaApiApplicationTests          : Started PruebaApiApplicationTests in 1.641 seconds (process running for 2.919)
+2024-11-24T19:02:59.774-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=P y numeroDocumento=23445322
+2024-11-24T19:02:59.776-05:00  WARN 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Cliente no encontrado para numeroDocumento=23445322
+2024-11-24T19:02:59.781-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=11111111
+2024-11-24T19:02:59.781-05:00  WARN 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Cliente no encontrado para numeroDocumento=11111111
+2024-11-24T19:02:59.784-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=X y numeroDocumento=23445322
+2024-11-24T19:02:59.785-05:00 ERROR 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Tipo de documento inválido: X
+2024-11-24T19:02:59.787-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T19:02:59.787-05:00  INFO 47421 --- [prueba-api] [main] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T19:04:59.240-05:00  INFO 47489 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 17.0.12 with PID 47489 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T19:04:59.243-05:00 DEBUG 47489 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T19:04:59.244-05:00  INFO 47489 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T19:04:59.325-05:00  INFO 47489 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T19:04:59.325-05:00  INFO 47489 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T19:05:00.781-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T19:05:00.800-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T19:05:00.801-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T19:05:00.861-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T19:05:00.862-05:00  INFO 47489 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1536 ms
+2024-11-24T19:05:01.374-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T19:05:01.418-05:00  INFO 47489 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T19:05:01.433-05:00  INFO 47489 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.92 seconds (process running for 3.862)
+2024-11-24T19:06:05.259-05:00  INFO 47489 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T19:06:05.264-05:00  INFO 47489 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T19:06:08.437-05:00  INFO 47525 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 17.0.12 with PID 47525 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T19:06:08.439-05:00 DEBUG 47525 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T19:06:08.440-05:00  INFO 47525 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T19:06:08.491-05:00  INFO 47525 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T19:06:08.491-05:00  INFO 47525 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T19:06:09.500-05:00  INFO 47525 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T19:06:09.522-05:00  INFO 47525 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T19:06:09.523-05:00  INFO 47525 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T19:06:09.569-05:00  INFO 47525 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2024-11-24T19:06:09.917-05:00  INFO 47525 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T19:06:09.953-05:00  INFO 47525 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T19:06:09.965-05:00  INFO 47525 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 2.02 seconds (process running for 3.417)
+2024-11-24T19:06:09.966-05:00  INFO 47525 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T19:06:09.973-05:00  INFO 47525 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T19:06:13.326-05:00  INFO 47532 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Starting PruebaApiApplication using Java 17.0.12 with PID 47532 (/Users/jeanrua/Documents/github-repos/prueba-api/target/classes started by jeanrua in /Users/jeanrua/Documents/github-repos/prueba-api)
+2024-11-24T19:06:13.329-05:00 DEBUG 47532 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-24T19:06:13.330-05:00  INFO 47532 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T19:06:13.392-05:00  INFO 47532 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-24T19:06:13.392-05:00  INFO 47532 --- [prueba-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-24T19:06:14.255-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2024-11-24T19:06:14.268-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T19:06:14.268-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T19:06:14.305-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T19:06:14.305-05:00  INFO 47532 --- [prueba-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2024-11-24T19:06:14.652-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-24T19:06:14.682-05:00  INFO 47532 --- [prueba-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2024-11-24T19:06:14.692-05:00  INFO 47532 --- [prueba-api] [restartedMain] c.N.prueba_api.PruebaApiApplication      : Started PruebaApiApplication in 1.851 seconds (process running for 2.48)
+2024-11-24T19:06:18.659-05:00  INFO 47532 --- [prueba-api] [http-nio-0.0.0.0-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24T19:06:18.660-05:00  INFO 47532 --- [prueba-api] [http-nio-0.0.0.0-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-24T19:06:18.662-05:00  INFO 47532 --- [prueba-api] [http-nio-0.0.0.0-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-24T19:06:18.708-05:00  INFO 47532 --- [prueba-api] [http-nio-0.0.0.0-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Iniciando búsqueda de cliente con tipoDocumento=C y numeroDocumento=23445322
+2024-11-24T19:06:18.710-05:00  INFO 47532 --- [prueba-api] [http-nio-0.0.0.0-8090-exec-1] c.N.p.service.impl.ClienteServiceImpl    : Cliente encontrado con numeroDocumento=23445322
+2024-11-24T19:06:20.923-05:00  INFO 47532 --- [prueba-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T19:06:20.927-05:00  INFO 47532 --- [prueba-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

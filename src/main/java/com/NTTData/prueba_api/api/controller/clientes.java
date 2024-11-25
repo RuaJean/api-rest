@@ -3,16 +3,14 @@ package com.NTTData.prueba_api.api.controller;
 import com.NTTData.prueba_api.dto.ClienteDTO;
 import com.NTTData.prueba_api.dto.ErrorResponseDTO;
 import com.NTTData.prueba_api.exception.ClienteNoEncontradoException;
-import com.NTTData.prueba_api.exception.TipoDocumentoInvalidoException;
+import com.NTTData.prueba_api.exception.TipDocumentationException;
 import com.NTTData.prueba_api.service.ClienteService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/v1/clientes")
 public class clientes {
     private final ClienteService clienteService;
@@ -30,7 +28,7 @@ public class clientes {
             ClienteDTO cliente = clienteService.obtenerCliente(tipoDocumento, numeroDocumento);
             return ResponseEntity.ok(cliente);
 
-        } catch (TipoDocumentoInvalidoException ex) {
+        } catch (TipDocumentationException ex) {
             ErrorResponseDTO errorResponse = new ErrorResponseDTO(
                     400,
                     ex.getMessage(),
